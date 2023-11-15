@@ -1,0 +1,19 @@
+[utils]
+console_indent = '...'
+
+[ping]
+url_list=[
+  'https://ya.ru', 
+  'https://google.com'
+  ]
+time_scan=1 # min
+success_code_list = [200]
+
+[db_sqlite]
+db_dir='db'
+db_file='db_responce.sqlite3'
+
+[bitrix]
+bitrix_api_url_message = 'bitrix_api_url_message'
+bitrix_api_id_user = 123
+bitrix_api_id_chat = 'chat123'

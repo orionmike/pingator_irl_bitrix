@@ -1,0 +1,34 @@
+# Environments
+.env
+.venv
+src/env/
+src/venv/
+
+# Byte-compiled / optimized / DLL files
+*__pycache__
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+src/build/
+src/dist/
+src/bat/
+*.spec
+
+# logs
+src/logs/
+*.log
+
+# database:
+*.sqlite3
+*.sqlite3-journal
+*.db
+
+# other
+*.zip
+*.exe
+src/static/scss
+
+
+# config
+config.toml

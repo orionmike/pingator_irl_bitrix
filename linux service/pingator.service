@@ -1,0 +1,10 @@
+[Unit]
+Description=pingator
+After=multi-user.target
+
+[Service]
+Type=simple
+ExecStart=/home/user/venv-pingator/bin/python /home/user/pingator/pingator.py
+
+[Install]
+WantedBy=multi-user.target
